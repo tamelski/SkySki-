@@ -1,7 +1,6 @@
 # SkySki-
-SkySki — Premium alpine ski brand crafting high-performance gear for limitless mountain adventures. 🎿🏔️
 <div align="center">
-  <img src="logo.png" alt="SkySki Logo" width="240" />
+  <img src="logo.jpg" alt="SkySki Logo" width="240" />
   <h1>SkySki — Premium Alpine Gear</h1>
   <p><i>Crafting high-performance skis for limitless mountain adventures.</i></p>
 </div>
@@ -13,7 +12,7 @@ SkySki — Premium alpine ski brand crafting high-performance gear for limitless
 
 ## 📸 Gallery & Action
 <div align="center">
-  <img src="ski.jpg" alt="SkySki in Action" width="80%" />
+  <img src="image_81883e96.jpg" alt="SkySki in Action" width="80%" />
 </div>
 
 ## 🎿 Key Features
