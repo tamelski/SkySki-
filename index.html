@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SkySki — Premium Alpine Gear</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+    body { background-color: #0b131e; color: #f1f5f9; }
+    
+    /* Header & Navigation */
+    header { display: flex; justify-content: space-between; align-items: center; padding: 20px 40px; background: rgba(11, 19, 30, 0.9); border-bottom: 1px solid #1e293b; position: sticky; top: 0; z-index: 100; backdrop-filter: blur(10px); }
+    .brand { display: flex; align-items: center; gap: 15px; }
+    .brand img { width: 45px; height: 45px; border-radius: 50%; object-fit: cover; border: 2px solid #38bdf8; }
+    .brand h1 { font-size: 24px; color: #fff; letter-spacing: 1px; }
+    /* Hero Section */
+    .hero { text-align: center; padding: 80px 20px 60px; background: radial-gradient(circle at center, #1e293b 0%, #0b131e 100%); }
+    .hero h2 { font-size: 48px; margin-bottom: 15px; color: #38bdf8; }
+    .hero p { font-size: 18px; color: #94a3b8; max-width: 600px; margin: 0 auto 30px; line-height: 1.6; }
+    .btn { background: #0284c7; color: white; padding: 12px 28px; border-radius: 25px; text-decoration: none; font-weight: bold; transition: 0.3s; }
+    .btn:hover { background: #38bdf8; }
+    /* Gallery / Products */
+    .gallery-section { max-width: 1100px; margin: 40px auto; padding: 0 20px; }
+    .gallery-section h3 { font-size: 28px; margin-bottom: 25px; border-left: 4px solid #38bdf8; padding-left: 12px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 25px; }
+    .card { background: #1e293b; border-radius: 12px; overflow: hidden; border: 1px solid #334155; transition: transform 0.3s; }
+    .card:hover { transform: translateY(-5px); }
+    .card img { width: 100%; height: 260px; object-fit: cover; }
+    .card-info { padding: 20px; }
+    .card-info h4 { font-size: 20px; margin-bottom: 8px; }
+    .card-info p { color: #94a3b8; font-size: 14px; }
+    /* Footer */
+    footer { text-align: center; padding: 30px; border-top: 1px solid #1e293b; color: #64748b; margin-top: 60px; }
+  </style>
+</head>
+<body>
+  <!-- Header with your uploaded Logo -->
+  <header>
+    <div class="brand">
+      <img src="logo.jpg" alt="SkySki Logo">
+      <h1>SkySki</h1>
+    </div>
+  </header>
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>LIMITLESS MOUNTAIN ADVENTURES</h2>
+    <p>Premium alpine ski brand crafting high-performance gear for unforgettable snow experiences.</p>
+    <a href="#collection" class="btn">Explore Gear 🎿</a>
+  </section>
+  <!-- Gallery Section -->
+  <section class="gallery-section" id="collection">
+    <h3>Featured Equipment</h3>
+    <div class="grid">
+      <div class="card">
+        <img src="Gemini_Generated_Image_16jjqo16jjqo16jj.jpeg" alt="Alpine Gear">
+        <div class="card-info">
+          <h4>Alpine Pro Series</h4>
+          <p>Engineered for maximum speed, stability, and extreme mountain conditions.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="image_81883e96.jpg" alt="SkySki Gear">
+        <div class="card-info">
+          <h4>Mountain Adventure Kit</h4>
+          <p>Lightweight, durable, and designed for extreme performance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>© 2026 SkySki. All rights reserved.</p>
+  </footer>
+</body>
+</html>
